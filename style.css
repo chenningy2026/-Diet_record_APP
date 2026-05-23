@@ -31,9 +31,11 @@ body {
 
 .main-nav {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  border: 2px solid #b7b7ff;
-  background: white;
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+  gap: 36px;
+  background: transparent;
+}
 }
 
 .main-nav a {
